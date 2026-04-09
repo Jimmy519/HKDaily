@@ -4,8 +4,7 @@ import streamlit as st
 
 def get_RTHK_hottopics():
     rss_url={
-        "RTHK": "https://rthk.hk/rthk/news/rss/c_expressnews_clocal.xml",
-        "HKGOV": "https://www.news.gov.hk/tc/categories/finance/html/articlelist.rss.xml"
+        "RTHK": "https://rthk.hk/rthk/news/rss/c_expressnews_clocal.xml"
     }    
 
     for media, link in rss_url.items():
